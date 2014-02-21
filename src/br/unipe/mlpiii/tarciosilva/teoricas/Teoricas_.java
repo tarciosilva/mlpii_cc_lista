@@ -1,6 +1,6 @@
-package br.unipe.mlpiii.teoricas;
+package br.unipe.mlpiii.tarciosilva.teoricas;
 
-public class Teoricas_1_ {
+public class Teoricas_ {
 
 	/*
 	 * @date:20/02/2014 
@@ -43,9 +43,40 @@ public class Teoricas_1_ {
 	 * de 4 bilhões de dispositivos. Para muitos profissonais da área é a primeira linguagem em suas
 	 * especializações.
 	 * 
-	 * ********************************Java, write once, run anywhere**********************************
+	 **************************************************************************************************
+	 ***********************************Java, write once, run anywhere*********************************
+	 **************************************************************************************************
 	 *
+	 * Questão 2: Defina e exemplifique cada uma das partes de um objeto:
+	 * •Um estado (atributos)
+	 * •Um comportamento (métodos)
+	 * •Interface (assinaturas)
+	 * •Uma identidade
+	 * 
+	 * 
+	 * 
+	 * @resposta:
+	 * 
+	 * >atributos: são especificações, qualidades de uma classe em Java, é
+	 * aquilo que a mesma é;
+	 * 
+	 * >comportamento: é aquilo atrelado ao que a classe faz, as ações que
+	 * lhes são inerentes; 
+	 * 
+	 * >interface: é a identificação dos métodos de uma classe;
+	 * 
+	 * >identidade: é um nome que se usa pra identificar uma classe; 
+	 * 
+	 * **********************************Warning*******************************************
+	 * 
+	 * obs.: classe é diferente de objeto, a saber:
+	 * 
+	 * objeto: é uma referência a uma classe, ou seja, uma instância de uma classe;
+	 * classe: é conjunto de comportamentos e atributos que identificam um objeto;
+	 * 
+	 * *************************************************************************************
 		
+	
 	
 	
 	

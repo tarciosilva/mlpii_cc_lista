@@ -75,14 +75,46 @@ public class Teoricas_ {
 	 * classe: é conjunto de comportamentos e atributos que identificam um objeto;
 	 * 
 	 * *************************************************************************************
-		
-	
-	
-	
-	
-	
-	
-	
+	 * 
+	 * 
+	 * 
+	 * Questão 3: Defina e exemplifique os benefícios da Orientação a Objetos.
+	 * 
+	 * 
+	 * @resposta:
+	 * 
+	 *  O primeiro, e notável, grande benefício da orientação a objetos (O.O), é sem dúvida a 
+	 * portabilidade, i.e, o fato de ser uma linguagem multi-plataforma. Você não precisa 
+	 * escrever um códido pra windows, depois reescrever o mesmo código pra linux ou MAC OS,
+	 * com a máquina virtual instalada um mesmo código servirá pra qualquer um desses S.O's.
+	 * Depois temos o reaproveitamento de código. A O.O lhe permite escrever de forma suscinta
+	 * um código que em uma linguagem estruturada, como C por exemplo, levaria muito tempo pra
+	 * ser escrito e a "reusabilidade" do código é muito difícil. Com o conceito de classes, 
+	 * heranças, polimorfismo, etc, podemos usar um mesmo código em diferentes projetos fazendo 
+	 * apenas algumas modificações que sejam necessárias. Outra vantagem é a agilidade na manutenção
+	 * do código. Pelo mesmo fato do código ser reusável, essa conecção que a orientação a objetos
+	 * nos proporciona permiti-nos identificar bugs mais facilmente e corrigi-los de forma simples
+	 * e prática, não tendo que fazer alterações ao longo de todo fonte. Uma outra característica 
+	 * que ajuda muito também é a abstração da O.O. Você não precisa reiventar a roda, já tem ronta! 
+	 * Cabe apenas ao programador moldar seu problema e fazer uso da enorme biblioteca Java - 
+	 * diferente de liguagens como assemly, c...
+	 * 
+	 **********************************************************************************************   
+	 *   
+	 * 
+	 * Questão 4: Defina e exemplifique Polimorfismo.
+	 * 
+	 * 
+	 * @resposta:
+	 * 
+	 *  Polimorfismo, como a palavra sugere (poli = muitos, morpho = forma), é a capacidade de um OBJETO
+	 * ser referenciado por mais de uma classe. Exemplo: temos uma funcionário e uma atendente. Um
+	 * atendente é um funcionário por definição. Se um método que calcula as férias de um funcionário
+	 * for implementado e configurado pra receber um funcioário como referência, um atendente, just in time,
+	 * pode ser referenciado como funcioário, porém os métodos pertinentes à classe atendente continuam sendo
+	 * da mesma.
+	 * 
+	 * **********************************************************************************************	
 	*/
 
 }

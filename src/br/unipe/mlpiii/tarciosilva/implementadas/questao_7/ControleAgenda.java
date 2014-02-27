@@ -13,6 +13,39 @@ public class ControleAgenda {
 	public void setAgenda(Agenda[] agenda) {
 		this.agenda = agenda;
 	}
+	
+	
+	
+	public boolean adicionarContato(Agenda[] agenda, String nome, int numero){
+		
+		boolean ok = false;
+		
+		for(int i = 0; i < agenda.length; i++){
+			
+			agenda[i] = new Agenda();
+			
+			if(agenda[i] != null||((agenda[i].getNome() == null)&&(agenda[i].getNumero() == 0))){
+				
+				agenda[i].setNome(nome);
+				agenda[i].setNumero(numero);
+				ok = true;
+				break;
+				
+			}else{ 
+				
+				agenda = realoca(agenda);
+				adicionarContato(agenda, nome, numero);
+				
+			}
+			
+		}
+				
+		this.setAgenda(agenda);
+		return ok;
+		
+	}
+	
+	
 
 //**********************************************************************************
 	//ok
@@ -41,7 +74,7 @@ public class ControleAgenda {
 	}
 //********************************************************************************	
 		//ok			
-	public void Print(){
+	public void Print(Agenda[] agenda){
 		
 		for(int i = 0; i < agenda.length; i++){
 			
@@ -60,32 +93,17 @@ public class ControleAgenda {
 	public Agenda[] findContact(String nome){
 		
 		Agenda[] contact;
-		int i = 0;
-		//int j = 0;
-		
-		/*while(i < agenda.length){
-			
-			if(agenda[i].getNome().equals(nome)){
-									
-					j++;
-											
-			}
-			
-			i++;
-						
-		}i = 0; j = 0;*/
-		
 		contact = new Agenda[agenda.length];
+		int j = 0;
 		
-		while(i < agenda.length){
+		for(int i = 0; i < agenda.length; i++){
 			
-			if(agenda[i].getNome().equals(nome)){
+			if(agenda[i].getNome() == null) continue;
+			else if(agenda[i].getNome().equalsIgnoreCase(nome)){
 				
-				contact[i] = agenda[i]; //j++;
-										
-		    }
-		
-		    i++;
+				contact[j] = agenda[i]; j++;
+				
+			}
 			
 		}
 		

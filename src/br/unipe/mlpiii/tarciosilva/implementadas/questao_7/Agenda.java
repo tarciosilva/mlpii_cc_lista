@@ -5,8 +5,7 @@ public class Agenda{
 	private String nome;
 	private int numero;
 	
-	
-	
+				
 	public String getNome() {
 		return nome;
 	}

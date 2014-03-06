@@ -3,7 +3,7 @@ package br.unipe.mlpiii.tarciosilva.implementadas.questao_7;
 public class Agenda{
 	
 	private String nome;
-	private int numero;
+	private String numero;
 	
 				
 	public String getNome() {
@@ -12,10 +12,10 @@ public class Agenda{
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public int getNumero() {
+	public String getNumero() {
 		return numero;
 	}
-	public void setNumero(int numero) {
+	public void setNumero(String numero) {
 		this.numero = numero;
 	}
 
